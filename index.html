@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+</head>
+<body>
+<h1>Hello, world!</h1>
+<div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                <li><a class="dropdown-item3" href="#scrollspyHeading4">Fourth</a></li>
+                <li><a id="dropdown-item3" href="#scrollspyHeading5">Fifth</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="scrollspyHeading1">First heading</h4>
+    <p>p1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, iste itaque iusto.</p>
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>p2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. iusto Itaque, quia.</p>
+</div>
+
+<nav aria-label="...">
+    <ul class="pagination pagination-sm">
+        <li class="page-item active" aria-current="page">
+            <span class="page-link">1</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="ww2">2</a></li>
+        <li class="page-item"><a class="page-link" href="ww3">3</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
